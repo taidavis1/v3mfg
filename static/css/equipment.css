@@ -1,0 +1,788 @@
+@media screen and (max-width: 490px){
+    .v3_navbar .navbar{
+        opacity: 1;
+        color:aliceblue;
+        width: 100%;
+        position: static;
+        background-color: whitesmoke !important;
+    }
+    
+    .v3_navbar .navbar img{
+        width: 100px !important;
+        border-radius: 50px;
+    }
+    
+    .v3_navbar .navbar img:hover{
+        opacity: 0.5;
+    }
+    
+    .v3_navbar .navbar ul a{
+        cursor: pointer;
+    }
+
+    .v3_navbar .navbar li a:hover{
+        background-color: rgb(243, 214, 214);
+    }
+    
+    .navbar button:hover{
+        opacity: 0.3;
+    }
+
+    /* Body */
+
+    .v3_header{
+        background-color: whitesmoke;
+        opacity: 0.6;
+    }
+
+    .v3_header h1{
+        font-size:25px;
+        text-align: center;
+        width: 95%;
+        margin-left:10px;
+        text-shadow: 2px 3px 5px;
+        color: red;
+    }
+
+
+    .v3_equipment_photo img{
+        width: 100%;
+        height: 50%;
+        position: relative;
+        opacity: 1;
+        display: block;
+        backface-visibility: hidden;
+    }
+
+    
+    .v3_equipment_photo span{
+        color:black;
+        margin-top: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: whitesmoke;
+        opacity: 0.5;
+    }
+
+    .v3_equipment_photo span:hover{
+        opacity: 1;
+    }
+
+
+    .row h1{
+        font-size:x-large;
+        text-align: center;
+        width: 95%;
+        text-shadow: 2px 3px 5px;
+        color: red;
+        text-transform: uppercase;
+        padding-top: 20px;
+
+
+    }
+
+    .v3_sofware_photo{
+        height: 650px
+    }
+
+    .v3_sofware_photo img{ 
+        width: 100%;
+        height: 50%;
+        position: relative;
+        opacity: 1;
+        display: block;
+        backface-visibility: hidden;
+        margin-top: 15px;
+    }
+
+    .img_fusion{
+        position: absolute;
+        left: 300px;
+        top: 450px;
+        width: 55%;
+        font-size: x-large;
+        color: black;
+        background-color: whitesmoke;
+        border-radius: 10px;
+        display: block;
+        text-indent: 10px;
+        text-shadow: 2px 2px 5px;
+        opacity: 0.6;
+        font-weight: bolder;
+    }
+
+}
+
+
+@media screen and (min-width:500px) and (max-width:798px){
+    .v3_navbar .navbar{
+        opacity: 1;
+        color:aliceblue;
+        width: 100%;
+        background-color: whitesmoke !important;
+    }
+    
+    .v3_navbar .navbar img{
+        width: 100px !important;
+        border-radius: 50px;
+    }
+    
+    .v3_navbar .navbar img:hover{
+        opacity: 0.5;
+    }
+    
+    .v3_navbar .navbar ul a{
+        cursor: pointer;
+        text-transform: uppercase;
+        display: block;
+        font-size: large;
+        text-shadow: 2px 2px 3px;
+        margin-left: 5px;
+    
+    }
+    
+    .v3_navbar .navbar li a:hover{
+        background-color: rgb(243, 214, 214);
+    }
+    
+    .v3_navbar.navbar button:hover{
+        opacity: 0.3;
+    }
+
+    .v3_header{
+        background-color: whitesmoke;
+        height: 200px;
+        opacity: 0.6;
+        margin-top:80px;
+    }
+
+
+    .v3_header h1{
+        font-size:40px;
+        text-align: center;
+        width: 95%;
+        margin-left:10px;
+        text-shadow: 2px 3px 5px;
+        color: red;
+    }
+
+    .v3_header p{
+        text-align: center;
+        width:80%;
+        margin-top: 10px;
+        font-weight: bold;
+        margin-left: 50px;
+    }
+
+
+    .v3_equipment_photo img{
+        width: 100%;
+        height: 50%;
+        position: relative;
+        opacity: 1;
+        display: block;
+    }
+
+    .row h1{
+        font-size:x-large;
+        text-align: center;
+        width: 95%;
+        text-shadow: 2px 3px 5px;
+        color: red;
+        text-transform: uppercase;
+        padding-top: 10px;
+    }
+
+    /*.v3_sofware_photo{*/
+        /*height: 900px*/
+    /*}*/
+
+    .v3_sofware_photo img{ 
+        width: 100%;
+        height:50%;
+        position: relative;
+        opacity: 1;
+        display: block;
+        margin-top:15px;
+    }
+
+    .img_fusion{
+        position: absolute;
+        left: 300px;
+        top: 450px;
+        width: 55%;
+        font-size: x-large;
+        color: black;
+        background-color: whitesmoke;
+        border-radius: 10px;
+        display: block;
+        text-indent: 10px;
+        text-shadow: 2px 2px 5px;
+        opacity: 0.6;
+        font-weight: bolder;
+    }
+}
+
+@media (min-width:800px) and (max-width:900px){
+    .v3_navbar .navbar{
+        opacity: 1;
+        color:aliceblue;
+        width: 100%;
+        background-color: whitesmoke !important;
+    }
+    
+    .v3_navbar .navbar img{
+        width: 100px !important;
+        border-radius: 50px;
+    }
+    
+    .v3_navbar .navbar img:hover{
+        opacity: 0.5;
+    }
+    
+    .v3_navbar .navbar ul a{
+        cursor: pointer;
+        text-transform: uppercase;
+        display: block;
+        font-size: large;
+        text-shadow: 2px 2px 3px;
+        margin-left: 10px;
+    
+    }
+    
+    .v3_navbar .navbar li a:hover{
+        background-color: rgb(243, 214, 214);
+    }
+    
+    .v3_navbar.navbar button:hover{
+        opacity: 0.3;
+    }
+    
+
+    .v3_header{
+        background-color: whitesmoke;
+        height: 150px;
+        opacity: 0.6;
+        margin-top: 80px;
+    }
+
+
+    .v3_header h1{
+        font-size:40px;
+        text-align: center;
+        width: 95%;
+        margin-left:10px;
+        text-shadow: 2px 3px 5px;
+        color: red;
+    }
+
+    .v3_equipment_photo img{
+        width: 100%;
+        height: 50%;
+        position: relative;
+        opacity: 1;
+        display: block;
+        backface-visibility: hidden;
+    }
+
+    .v3_equipment_photo .img_doosan{
+        position: absolute;
+        left: 100px;
+        top: 500px;
+        width: 80%;
+        font-size: x-large;
+        color: black;
+        background-color: whitesmoke;
+        border-radius: 10px;
+        display: block;
+        text-indent: 10px;
+        text-shadow: 2px 2px 5px;
+        opacity: 0.6;
+        font-weight: bolder;
+    }
+
+    .v3_equipment_photo .img_hass{
+        position: absolute;
+        left: 100px;
+        top: 200px;
+        width: 80%;
+        font-size: x-large;
+        color: black;
+        background-color: whitesmoke;
+        border-radius: 10px;
+        display: block;
+        text-indent: 10px;
+        text-shadow: 2px 2px 5px;
+        opacity: 0.6;
+        font-weight: bolder;
+    }
+
+
+    .img_hass_1{
+        position: absolute;
+        left: 100px;
+        top: 200px;
+        width: 80%;
+        font-size: x-large;
+        color: black;
+        background-color: whitesmoke;
+        border-radius: 10px;
+        display: block;
+        text-indent: 10px;
+        text-shadow: 2px 2px 5px;
+        opacity: 0.6;
+        font-weight: bolder;
+    }
+
+
+    .img_zeiss{
+        position: absolute;
+        left: 40px;
+        top: 100px;
+        width: 90%;
+        font-size: x-large;
+        color: black;
+        background-color: whitesmoke;
+        border-radius: 10px;
+        display: block;
+        text-indent: 10px;
+        text-shadow: 2px 2px 5px;
+        opacity: 0.6;
+        font-weight: bolder;
+    }
+
+
+    .v3_equipment_photo span:hover{
+        opacity: 1;
+    }
+
+    .row h1{
+        font-size:70px;
+        text-align: center;
+        width: 95%;
+        text-shadow: 2px 3px 5px;
+        color: red;
+        text-transform: uppercase;
+        padding-top: 50px;
+
+
+    }
+
+    .v3_sofware_photo img{ 
+        width: 100%;
+        height: 30%;
+        position: relative;
+        opacity: 1;
+        display: block;
+        backface-visibility: hidden;
+        margin-top: 20px;
+    }
+
+    .img_fusion{
+        position: absolute;
+        left: 300px;
+        top: 450px;
+        width: 55%;
+        font-size: x-large;
+        color: black;
+        background-color: whitesmoke;
+        border-radius: 10px;
+        display: block;
+        text-indent: 10px;
+        text-shadow: 2px 2px 5px;
+        opacity: 0.6;
+        font-weight: bolder;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (min-width:901px) and (max-width:12500px){
+    .v3_navbar .navbar{
+        opacity: 1;
+        color:aliceblue;
+        width: 100%;
+        background-color: whitesmoke !important;
+    }
+    
+    .v3_navbar .navbar img{
+        width: 100px !important;
+        border-radius: 50px;
+    }
+    
+    .v3_navbar .navbar img:hover{
+        opacity: 0.5;
+    }
+    
+    .v3_navbar .navbar ul a{
+        cursor: pointer;
+        text-transform: uppercase;
+        display: block;
+        font-size: x-large;
+        text-shadow: 2px 2px 3px;
+        margin-left: 10px;
+    
+    }
+    
+    .v3_navbar .navbar li a:hover{
+        background-color: rgb(243, 214, 214);
+    }
+    
+    .v3_navbar.navbar button:hover{
+        opacity: 0.3;
+    }
+    
+
+    .v3_header{
+        background-color: whitesmoke;
+        height: 150px;
+        opacity: 0.6;
+        margin-top: 80px;
+    }
+
+
+    .v3_header h1{
+        font-size:40px;
+        text-align: center;
+        width: 95%;
+        margin-left:10px;
+        text-shadow: 2px 3px 5px;
+        color: red;
+    }
+
+    .v3_equipment_photo img{
+        width: 100%;
+        height: 50%;
+        position: relative;
+        opacity: 1;
+        display: block;
+        backface-visibility: hidden;
+    }
+
+    .v3_equipment_photo .img_doosan{
+        position: absolute;
+        left: 150px;
+        top: 800px;
+        width: 80%;
+        font-size: x-large;
+        color: black;
+        background-color: whitesmoke;
+        border-radius: 10px;
+        display: block;
+        text-indent: 10px;
+        text-shadow: 2px 2px 5px;
+        opacity: 0.6;
+        font-weight: bolder;
+    }
+
+    .v3_equipment_photo .img_hass{
+        position: absolute;
+        left: 150px;
+        top: 400px;
+        width: 80%;
+        font-size: x-large;
+        color: black;
+        background-color: whitesmoke;
+        border-radius: 10px;
+        display: block;
+        text-indent: 10px;
+        text-shadow: 2px 2px 5px;
+        opacity: 0.6;
+        font-weight: bolder;
+    }
+
+
+    .img_hass_1{
+        position: absolute;
+        left: 100px;
+        top: 292px;
+        width: 80%;
+        font-size: x-large;
+        color: black;
+        background-color: whitesmoke;
+        border-radius: 10px;
+        display: block;
+        text-indent: 10px;
+        text-shadow: 2px 2px 5px;
+        opacity: 0.6;
+        font-weight: bolder;
+    }
+
+
+    .img_zeiss{
+        position: absolute;
+        left: 100px;
+        top: 292px;
+        width: 80%;
+        font-size: x-large;
+        color: black;
+        background-color: whitesmoke;
+        border-radius: 10px;
+        display: block;
+        text-indent: 10px;
+        text-shadow: 2px 2px 5px;
+        opacity: 0.6;
+        font-weight: bolder;
+    }
+
+
+    .v3_equipment_photo span:hover{
+        opacity: 1;
+    }
+
+    .row h1{
+        font-size:70px;
+        text-align: center;
+        width: 95%;
+        text-shadow: 2px 3px 5px;
+        color: red;
+        text-transform: uppercase;
+        padding-top: 50px;
+
+
+    }
+
+    .v3_sofware_photo img{ 
+        width: 100%;
+        height: 30%;
+        position: relative;
+        opacity: 1;
+        display: block;
+        backface-visibility: hidden;
+        margin-top: 20px;
+    }
+
+    .img_fusion{
+        position: absolute;
+        left: 300px;
+        top: 450px;
+        width: 55%;
+        font-size: x-large;
+        color: black;
+        background-color: whitesmoke;
+        border-radius: 10px;
+        display: block;
+        text-indent: 10px;
+        text-shadow: 2px 2px 5px;
+        opacity: 0.6;
+        font-weight: bolder;
+    }
+}
+
+@media screen and (min-width:1250px){
+    .v3_navbar .navbar{
+        opacity: 1;
+        color:aliceblue;
+        width: 100%;
+        background-color: black !important;
+    }
+    
+    .v3_navbar .navbar img{
+        width: 100px !important;
+        border-radius: 50px;
+    }
+    
+    .v3_navbar .navbar img:hover{
+        opacity: 0.5;
+    }
+    
+    .v3_navbar .navbar ul a{
+        cursor: pointer;
+        text-transform: uppercase;
+        display: block;
+        font-size: x-large;
+        text-shadow: 2px 2px 3px;
+        margin-left: 5px;
+        color:white !important;
+    }
+    
+    .v3_navbar .navbar li a:hover{
+        background-color: rgb(243, 214, 214);
+    }
+    
+    .v3_navbar .navbar button:hover{
+        opacity: 0.3;
+    }
+    
+    /* Body  */
+
+    .v3_header{
+        margin-top: 90px;
+        height: 200px;
+    }
+
+    .v3_header h1{
+        color:red;
+        text-shadow: 2px 2px 5px;
+        font-size: 50px;
+    }
+
+    .v3_header p{
+        margin-top: 10px;
+        width: 85%;
+        margin-left: 150px;
+        font-size: x-large;
+        text-shadow: 2px 2px 5px;
+    }
+}
+
+
+
+/* Footer */
+
+:root {
+    --main-color: #f8f9fa;
+    --border-color: #ced4da;
+    --main-color-active: #212529;
+}
+body {
+    background: #f4f4f4;
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    
+}
+
+.container-fluid
+{
+    width: 100%;
+}
+.col-fluid {
+    position: relative;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+/* Navigation */
+.v3-header {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+}
+.v3-brand > img {
+    height: 40px;
+}
+
+@media screen and (min-width: 768px)
+{
+    .v3-brand > img {
+        height: 70px;
+    }
+    .v3-nav-fade-in {
+        height: 90px;
+    }
+    .v3-nav-contact {
+        height: 90px;
+    }
+}
+/* slide */
+.v3-footer-blocks{
+    padding: 20px 0px 20px 0px;
+    color: white;
+    width: 100%;
+    background-color: #212529;
+}
+
+.v3-carousel {
+    position: relative;
+}
+.carousel-control-prev {
+    left: 0;
+    top: 20%;
+  }
+  
+  .carousel-control-next {
+    right: 0;
+    top: 20%;
+  }
+  .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+.scroll-down-button > img {
+    width: 50px;
+    height: auto;
+}
+.scroll-down-button {
+    position: absolute;
+    bottom: 10%;
+    right: 50%;
+    display: flex;
+    justify-content: center;
+    z-index: 9999999;
+}
+
+/* content */
+.v3-h1-title > h1 {
+    font-weight: initial;
+    color: #a39161;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.v3-form-title {
+    margin: 1.1rem 0rem 1.1rem 0rem;
+}
+.v3-form-content {
+    margin: 0.5rem 0rem 0.5rem 0rem;
+}
+.v3-text-center {
+    text-align: center;
+}
+.navbar-collapse.show{
+    padding-left: 1rem;
+    opacity: .95;
+    margin: .45rem -1rem 0rem -1rem;
+
+}
+
+@media screen and (min-width: 768px) {
+    .v3-h1-title > h1 {
+        font-size: 2rem;
+    }
+    .v3-form-title {
+        margin: 1.5rem 0rem 1.5rem 0rem;
+    }
+   
+}
+
+/* animation */
+.v3-animation-navbar-collapse-show {
+	opacity: 1;
+	animation-name: animationFadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+	animation-duration: 0.4s;
+}
+
+@keyframes animationFadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: .95;
+	}
+}
+
+.foxv-ul{
+    list-style: none;
+}
+
+.foxv-ul a{
+    color:white;
+    margin-left:5px;
+    cursor:pointer;
+    list-style: circle;
+}
+
+.v3_header p{
+    text-align: center;
+}
