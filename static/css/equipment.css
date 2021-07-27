@@ -50,6 +50,7 @@
 
         width: 90%;
 
+        display: block;
 
     }
 
@@ -122,7 +123,7 @@
 }
 
 
-@media screen and (min-width:500px) and (max-width:798px){
+@media (min-width:500px) and (max-width:798px){
     .v3_navbar .navbar{
         opacity: 1;
         color:aliceblue;
@@ -178,6 +179,7 @@
         margin-top: 10px;
         font-weight: bold;
         text-indent: 5px;
+        display: block;
     }
 
 
