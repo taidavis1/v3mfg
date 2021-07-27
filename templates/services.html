@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-dark">
         <a class="nav-brand" href="/"><img src="/static/img/Small.png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#v3_menus">
             <span class="navbar-toggler-icon"></span>
@@ -49,45 +49,55 @@
         </div>
     </nav>
 
-   <div class = "v3_header">
-        <h1>Services, Quality, Culture, Process and Results.</h1>
-        <p>Today South Bay Solutions offers the state of the art in outsourced manufacturing of complex assemblies.
-            Our automated materials management, planning and supply chain tools are considered a benchmark for the industry.</p>
-    </div>
+    <section id="content">
 
-    <div class="v3_body_img">
-        <img data-aos-offset = "300" data-aos = "fade-right" src="/static/img/IMG_0705.jpg">
-        <p data-aos ="fade-up" data-aos-offset="300">65,000 sq. ft. facility in Fremont is ready for you</p>
-    </div>
-    <div class="v3_body row">
-        <div class="col-sm col-md-6 col-lg-6" data-aos = "fade-left" data-aos-offset="200">
-            <h3>Services</h3>
-            <ul>
-                <li>Welding and Grinding</li>
-                <li>Machining</li>
-                <li>Packaging</li>
-                <li>QA / QC Inspection</li>
-                <li>Complex prototype assemblies</li>
-                <li>High Volume production</li>
-                <li>Sheet Metal capabilities</li>
-                <li>Engineering support for cost reduction</li>
-            </ul> 
+        <div class = "v3_header">
+            <div class="row">
+                <div class="col-md col-lg">
+                    <h1>Services, Quality, Culture, Process and Results.</h1>
+                    <p>Today South Bay Solutions offers the state of the art in outsourced manufacturing of complex assemblies.
+                        Our automated materials management, planning and supply chain tools are considered a benchmark for the industry.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="v3_body_img">
+            <img data-aos-offset = "300" data-aos = "fade-right" src="/static/img/IMG_0705.jpg">
+            <p data-aos ="fade-up" data-aos-offset="300">65,000 sq. ft. facility in Fremont is ready for you</p>
+        </div>
+        <div class="v3_body row">
+            <div class="col-sm col-md-6 col-lg-6" data-aos = "fade-left" data-aos-offset="200">
+                <h3>Services</h3>
+                <ul>
+                    <li>Welding and Grinding</li>
+                    <li>Machining</li>
+                    <li>Packaging</li>
+                    <li>QA / QC Inspection</li>
+                    <li>Complex prototype assemblies</li>
+                    <li>High Volume production</li>
+                    <li>Sheet Metal capabilities</li>
+                    <li>Engineering support for cost reduction</li>
+                </ul> 
+            </div>
+    
+            <div class="col-sm col-md-6 col-lg-6" data-aos = "fade-right" data-aos-offset="250">
+                <h3>Making Parts for</h3>
+                <ul>
+                    <li>Semiconductor & Wafer Fabrication</li>
+                    <li>Measurement & Control</li>
+                    <li>Chassis</li>
+                    <li>Network components</li>
+                    <li>Server devices and cabinets</li>
+                    <li>Testing & assemblies</li>
+                    <li>Sheet Metal capabilities</li>
+                    <li>Engineering support for cost reduction</li>
+                </ul>
+            </div>    
         </div>
 
-        <div class="col-sm col-md-6 col-lg-6" data-aos = "fade-right" data-aos-offset="250">
-            <h3>Making Parts for</h3>
-            <ul>
-                <li>Semiconductor & Wafer Fabrication</li>
-                <li>Measurement & Control</li>
-                <li>Chassis</li>
-                <li>Network components</li>
-                <li>Server devices and cabinets</li>
-                <li>Testing & assemblies</li>
-                <li>Sheet Metal capabilities</li>
-                <li>Engineering support for cost reduction</li>
-            </ul>
-        </div>    
-    </div>
+    </section>
+
+  
 
     <!-- ################################# -->
 
@@ -120,6 +130,13 @@
                 window.open(this.href);
                 return false;
             });
+
+            $(".navbar-toggler").click(function(){
+
+                $('#content').toggle();
+
+            });
+
         });
     </script>
 </body>
