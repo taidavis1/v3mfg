@@ -1,0 +1,104 @@
+.v3_header_2 {
+
+    margin-top: 100px;
+    text-shadow: 2px 3px 5px;
+}
+
+.v3_header_2 h1{
+
+    color: red;
+
+    font-size: 50px;
+
+}
+
+.v3_header_2 span{
+
+    text-indent: 10px;
+
+    font-size: x-large;
+
+    display: block;
+
+    text-align: center;
+
+}
+
+.v3_equipment_photo img{
+
+    width: 100%;
+
+    height: 50%;
+
+    object-fit: contain;
+
+    position: relative;
+
+    opacity: 1;
+
+    display: block;
+
+    backface-visibility: hidden;
+
+}
+
+@media only screen and (max-width: 500px){
+
+    .v3_header_2 h1{
+
+        color: red;
+    
+        font-size: 25px;
+    
+    }
+
+    .v3_header_2 .text{
+
+        font-size: 15px;
+
+        display:block;
+
+        width: 95%;
+
+        text-align: center;
+
+        text-overflow: hidden;
+
+        text-indent: 5px;
+
+            
+    }
+
+}
+
+@media only screen and (max-width: 500px){
+
+    .v3_header_2 h1{
+
+        color: red;
+    
+        font-size: 25px;
+    
+    }
+
+    .v3_header_2 .text{
+
+        font-size: 15px;
+
+        display:block;
+
+        width: 95%;
+
+        text-align: center;
+
+        text-overflow: hidden;
+
+        text-indent: 5px;
+
+            
+    }
+
+}
+
+
+
