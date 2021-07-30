@@ -672,6 +672,7 @@
     --border-color: #ced4da;
     --main-color-active: #212529;
 }
+
 body {
     background: #f4f4f4;
     margin: 0;
@@ -775,12 +776,7 @@ body {
 .v3-text-center {
     text-align: center;
 }
-.navbar-collapse.show{
-    padding-left: 1rem;
-    opacity: .95;
-    margin: .45rem -1rem 0rem -1rem;
 
-}
 
 @media screen and (min-width: 768px) {
     .v3-h1-title > h1 {
@@ -792,14 +788,7 @@ body {
    
 }
 
-/* animation */
-.v3-animation-navbar-collapse-show {
-	opacity: 1;
-	animation-name: animationFadeInOpacity;
-	animation-iteration-count: 1;
-	animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-	animation-duration: 0.4s;
-}
+
 
 @keyframes animationFadeInOpacity {
 	0% {
@@ -820,3 +809,5 @@ body {
     cursor:pointer;
     list-style: circle;
 }
+
+

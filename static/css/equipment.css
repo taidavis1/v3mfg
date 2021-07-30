@@ -1,28 +1,22 @@
-@media screen and (max-width: 490px){
-    .v3_navbar .navbar{
-        opacity: 1;
-        color:aliceblue;
-        width: 100%;
-        position: static;
+@media only screen and (max-width: 477px){
+    .navbar{
         background-color: whitesmoke !important;
     }
     
-    .v3_navbar .navbar img{
+    .navbar img{
         width: 100px !important;
         border-radius: 50px;
     }
     
-    .v3_navbar .navbar img:hover{
+    .navbar img:hover{
         opacity: 0.5;
     }
     
-    .v3_navbar .navbar ul a{
+    .navbar ul a{
         cursor: pointer;
     }
 
-    .v3_navbar .navbar li a:hover{
-        background-color: rgb(243, 214, 214);
-    }
+    
     
     .navbar button:hover{
         opacity: 0.3;
@@ -32,16 +26,26 @@
 
     .v3_header{
         background-color: whitesmoke;
-        opacity: 0.6;
+        justify-content: center;
+        width: 100%;
     }
 
     .v3_header h1{
         font-size:25px;
         text-align: center;
-        width: 95%;
-        margin-left:10px;
+        width: 100% !important;
         text-shadow: 2px 3px 5px;
         color: red;
+    }
+
+    .v3_header p{
+
+        text-align: center;
+
+        width: 90%;
+
+        display: block;
+
     }
 
 
@@ -67,19 +71,7 @@
         opacity: 1;
     }
 
-
-    .row h1{
-        font-size:x-large;
-        text-align: center;
-        width: 95%;
-        text-shadow: 2px 3px 5px;
-        color: red;
-        text-transform: uppercase;
-        padding-top: 20px;
-
-
-    }
-
+    
     .v3_sofware_photo{
         height: 650px
     }
@@ -113,15 +105,13 @@
 }
 
 
-@media screen and (min-width:500px) and (max-width:798px){
-    .v3_navbar .navbar{
-        opacity: 1;
-        color:aliceblue;
-        width: 100%;
+@media (min-width:500px) and (max-width:798px){
+    .navbar{
+
         background-color: whitesmoke !important;
     }
     
-    .v3_navbar .navbar img{
+    .navbar img{
         width: 100px !important;
         border-radius: 50px;
     }
@@ -140,8 +130,8 @@
     
     }
     
-    .v3_navbar .navbar li a:hover{
-        background-color: rgb(243, 214, 214);
+    .navbar li a:hover{
+        /* background-color: rgb(243, 214, 214); */
     }
     
     .v3_navbar.navbar button:hover{
@@ -150,27 +140,26 @@
 
     .v3_header{
         background-color: whitesmoke;
-        height: 200px;
-        opacity: 0.6;
         margin-top:80px;
+        justify-content: center;
     }
 
 
     .v3_header h1{
         font-size:40px;
         text-align: center;
-        width: 95%;
-        margin-left:10px;
+        /* margin-left:10px; */
         text-shadow: 2px 3px 5px;
         color: red;
     }
 
     .v3_header p{
         text-align: center;
-        width:80%;
+        width:90%;
         margin-top: 10px;
         font-weight: bold;
-        margin-left: 50px;
+        text-indent: 5px;
+        display: block;
     }
 
 
@@ -192,9 +181,6 @@
         padding-top: 10px;
     }
 
-    /*.v3_sofware_photo{*/
-        /*height: 900px*/
-    /*}*/
 
     .v3_sofware_photo img{ 
         width: 100%;
@@ -260,7 +246,7 @@
 
     .v3_header{
         background-color: whitesmoke;
-        height: 150px;
+        /* height: 150px; */
         opacity: 0.6;
         margin-top: 80px;
     }
@@ -395,11 +381,6 @@
 }
 
 
-
-
-
-
-
 @media screen and (min-width:901px) and (max-width:12500px){
     .v3_navbar .navbar{
         opacity: 1;
@@ -438,17 +419,15 @@
 
     .v3_header{
         background-color: whitesmoke;
-        height: 150px;
-        opacity: 0.6;
-        margin-top: 80px;
+        justify-content: center;
+        margin-top: 20px;
     }
 
 
     .v3_header h1{
-        font-size:40px;
+        font-size:30px !important;
         text-align: center;
         width: 95%;
-        margin-left:10px;
         text-shadow: 2px 3px 5px;
         color: red;
     }
@@ -610,22 +589,25 @@
     /* Body  */
 
     .v3_header{
-        margin-top: 90px;
-        height: 200px;
+        margin-top: 50px;
+        justify-content: center !important;
     }
 
     .v3_header h1{
         color:red;
         text-shadow: 2px 2px 5px;
         font-size: 50px;
+        text-align: center;
     }
 
     .v3_header p{
         margin-top: 10px;
-        width: 85%;
+        width: 80%;
+        text-align: center !important;
         margin-left: 150px;
         font-size: x-large;
         text-shadow: 2px 2px 5px;
+        display: flex;
     }
 }
 
@@ -670,7 +652,7 @@ body {
     height: 40px;
 }
 
-@media screen and (min-width: 768px)
+@media (min-width: 768px)
 {
     .v3-brand > img {
         height: 70px;
@@ -786,3 +768,4 @@ body {
 .v3_header p{
     text-align: center;
 }
+

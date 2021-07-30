@@ -1,5 +1,5 @@
 
-@media (max-width: 477px){
+@media only screen and (max-width: 477px){
   
     .navbar img{
         width: 100px !important;
@@ -10,13 +10,16 @@
 
         background-color: whitesmoke !important;
 
+        width: 360px;
+
     }
 
     .v3_header{
         opacity: 0.6;
-        width: 100%;
+        /* width: 100%; */
         position:relative;
         margin-top: 70px;
+        justify-content: center;
     }
     
 
@@ -24,7 +27,6 @@
         font-size:25px;
         text-align: center;
         width: 100%;
-        margin-left:10px;
         text-shadow: 2px 3px 5px;
         color: red;
     }
@@ -504,7 +506,7 @@ body {
 }
 
 .navbar .nav-link:hover{
-    border-bottom: 1px solid #3f87a6;
+    border-bottom: 2px solid #3f87a6;
     /* transition: 0.3s; */
 }
 
@@ -523,13 +525,12 @@ body {
 
     text-transform: uppercase;
 
-
     border-radius: 20px; 
 
 }
 
   
-@media (max-width: 909px) {
+@media only screen and (max-width: 909px) {
     .navbar .navbar-collapse {
       background: linear-gradient(#0093E9, #80D0C7);
       opacity: 0;
@@ -538,7 +539,7 @@ body {
       left: 0;
       right: 0;
       bottom: 0;
-      transition: opacity 0.35s ease;
+      /* transition: opacity 0.35s ease; */
       display: flex;
       flex-direction: column;
       align-content: center;
@@ -563,18 +564,18 @@ body {
         color: #fff;
         position: relative;
         line-height: 50px;
-        transition: all 0.3s ease;
+        width: 100%;
 
     }
 
     .navbar .navbar-collapse .collapse {
       display: flex;
       opacity: 0;
-      pointer-events: none
+      pointer-events: none;
     }
     .navbar .navbar-collapse.collapsing[style*="height"] {
       opacity: 1;
-      height: 100vh !important
+      height: 100vh !important;
     }
     .navbar .navbar-collapse.collapsing {
       opacity: 0;
@@ -590,8 +591,9 @@ body {
       margin-bottom: auto;
     }
 
-    .navbar-nav {
+    .navbar-nav{
         margin-left: initial !important;
     }
-
 }
+
+
