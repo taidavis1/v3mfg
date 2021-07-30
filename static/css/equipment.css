@@ -12,35 +12,57 @@
 
 }
 
-.v3_header_2 span{
+.v3_header_2 p{
 
     text-indent: 10px;
 
     font-size: x-large;
 
-    display: block;
+    display:block;
 
     text-align: center;
 
 }
 
-.v3_equipment_photo img{
+.v3_equipment_photo .first{
+
+
+    border: 2px solid red;
+
+    display: block;
 
     width: 100%;
 
     height: 50%;
 
-    object-fit: contain;
 
-    position: relative;
 
-    opacity: 1;
+}
+
+
+.v3_equipment_photo img{
+
+    width: 100%;
+
+    height: 100%;
 
     display: block;
 
     backface-visibility: hidden;
 
 }
+
+
+section{
+
+    padding-top: 0px;
+
+
+}
+
+
+
+
 
 @media only screen and (max-width: 500px){
 
