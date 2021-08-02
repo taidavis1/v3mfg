@@ -12,40 +12,173 @@
 
 }
 
-.v3_header_2 span{
+.v3_header_2 p{
 
     text-indent: 10px;
 
     font-size: x-large;
 
-    display: block;
+    display:block;
 
     text-align: center;
 
 }
 
-.v3_equipment_photo img{
 
-    width: 100%;
+.equipment_title{
 
-    height: 40%;
+    color: red;
 
-    position: relative;
+    font-size: 50px;
 
-    opacity: 1;
+    text-shadow: 2px 3px 5px;
+
+}
+
+
+
+/* ########### DOOSAN ############## */
+
+.v3_doosan_info{
+
+    background-color: whitesmoke;
+
+    border: 2px solid black;
+
+    height: auto;
+
+    width: 70%;
+
+    border-radius: 20px;
+
+}
+
+.v3_doosan_info h1{
+
+    color: black;
+
+    font-size:40px;
+
+    text-shadow: 2px 3px 5px;
+
+    font-style: italic;
+
+
+
+
+}
+
+
+.v3_doosan_info img{
+
+    width: 90%;
+
+    height:100%;
 
     display: block;
 
+    margin-left: -15px;
+
+    border-radius: 20px;
+
 
 }
 
-.row{
+.v3_doosan{
 
-    display: flex;
+    display: inline-block;
 
-    margin: auto;
+    font-size: large;
+
+    margin-top: 100pxc;
+    
 
 }
+
+.v3_doosan_text{
+
+    width: 90%;
+
+}
+
+
+
+
+
+
+
+/* ############### HASS ################### */
+
+
+.v3_hass_info{
+
+    background-color: whitesmoke;
+
+    border: 2px solid black;
+
+    height: auto;
+
+    width: 70%;
+
+    border-radius: 20px;
+
+    margin-top: 20px;
+
+}
+
+.v3_hass_info h1{
+
+    color: black;
+
+    font-size:40px;
+
+    text-shadow: 2px 3px 5px;
+
+    font-style: italic;
+
+
+
+
+}
+
+
+.v3_hass_info img{
+
+    width: 90%;
+
+    height:445px;
+
+    display: block;
+
+    margin-left: -15px;
+
+    border-radius: 20px;
+
+
+}
+
+.v3_doosan{
+
+    display: inline-block;
+
+    font-size: large;
+    
+
+}
+
+.v3_hass_text{
+
+    width: 90%;
+
+}
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 500px){
 
@@ -57,7 +190,7 @@
     
     }
 
-    .v3_header_2 .text{
+    .v3_header_2 p{
 
         font-size: 15px;
 
@@ -69,41 +202,13 @@
 
         text-overflow: hidden;
 
-        text-indent: 5px;
+        /* text-indent: 5px; */
 
             
     }
 
 }
 
-@media only screen and (max-width: 500px){
-
-    .v3_header_2 h1{
-
-        color: red;
-    
-        font-size: 25px;
-    
-    }
-
-    .v3_header_2 .text{
-
-        font-size: 15px;
-
-        display:block;
-
-        width: 95%;
-
-        text-align: center;
-
-        text-overflow: hidden;
-
-        text-indent: 5px;
-
-            
-    }
-
-}
 
 
 
