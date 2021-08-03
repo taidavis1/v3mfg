@@ -185,15 +185,6 @@
 }
 
 
-.btn-group-sm>.btn, .btn-sm {
-    float: none;
-}
-
-.navbar-toggle {
-    display: inline-block;
-    float: none;
-}
-
 
 
 @media only screen and (max-width: 500px){

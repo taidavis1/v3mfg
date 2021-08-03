@@ -5,9 +5,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel ="stylesheet" href="/static/css/layout.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/css/layout.css">
+    <link rel="stylesheet" href="/static/css/services.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -17,7 +21,7 @@
 <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-dark">
         <a class="nav-brand" href="/"><img src="/static/img/Small.png"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#v3_menus">
+        <button id="ChangeToggle" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#v3_menus">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="v3_menus">
@@ -52,47 +56,112 @@
     <section id="content">
 
         <div class = "v3_header">
-            <div class="row">
-                <div class="col-md col-lg">
-                    <h1>Services, Quality, Culture, Process and Results.</h1>
-                    <p>Today South Bay Solutions offers the state of the art in outsourced manufacturing of complex assemblies.
-                        Our automated materials management, planning and supply chain tools are considered a benchmark for the industry.</p>
-                </div>
+            <div class="row justify-content-center">
+                <h1>Services, Quality, Culture, Process and Results.</h1>
             </div>
+
+            <div class="row justify-content-center">
+
+                <p>Today South Bay Solutions offers the state of the art in outsourced manufacturing of complex assemblies.
+                    Our automated materials management, planning and supply chain tools are considered a benchmark for the industry.Today South Bay Solutions offers the state of the art in outsourced manufacturing of complex assemblies.
+                    Our automated materials management, planning and supply chain tools are considered a benchmark for the industry.
+                    Our automated materials management, planning and supply chain tools are considered a benchmark for the industry.
+                </p>
+
+            </div>
+
         </div>
     
         <div class="v3_body_img">
-            <img data-aos-offset = "300" data-aos = "fade-right" src="/static/img/IMG_0705.jpg">
-            <p data-aos ="fade-up" data-aos-offset="300">65,000 sq. ft. facility in Fremont is ready for you</p>
-        </div>
-        <div class="v3_body row">
-            <div class="col-sm col-md-6 col-lg-6" data-aos = "fade-left" data-aos-offset="200">
-                <h3>Services</h3>
-                <ul>
-                    <li>Welding and Grinding</li>
-                    <li>Machining</li>
-                    <li>Packaging</li>
-                    <li>QA / QC Inspection</li>
-                    <li>Complex prototype assemblies</li>
-                    <li>High Volume production</li>
-                    <li>Sheet Metal capabilities</li>
-                    <li>Engineering support for cost reduction</li>
-                </ul> 
+            
+            <div class="row justify-content-center">
+
+               <div class="v3_img">
+
+                   <div class="row">
+                       
+                        <img class="img-fluid" data-aos-offset = "300" data-aos = "fade-right" src="/static/img/IMG_0705.jpg">
+
+                        <div class="v3_img_text">
+
+                            <p data-aos ="fade-up" data-aos-offset="100">65,000 sq. ft. facility in Fremont is ready for you</p>
+
+
+                        </div>
+
+                    </div>
+
+               </div>
+
             </div>
-    
-            <div class="col-sm col-md-6 col-lg-6" data-aos = "fade-right" data-aos-offset="250">
-                <h3>Making Parts for</h3>
-                <ul>
-                    <li>Semiconductor & Wafer Fabrication</li>
-                    <li>Measurement & Control</li>
-                    <li>Chassis</li>
-                    <li>Network components</li>
-                    <li>Server devices and cabinets</li>
-                    <li>Testing & assemblies</li>
-                    <li>Sheet Metal capabilities</li>
-                    <li>Engineering support for cost reduction</li>
-                </ul>
-            </div>    
+
+        </div>
+
+        <div class="v3_services_body">
+
+            <div class="row">
+
+                <div class="col-md-6 col-lg-6 col-sm">
+
+                    <div class="v3_services_title"  data-aos = "fade-right" data-aos-offset="200">
+
+                        <div class="row justify-content-center">
+
+                            <h3>Services</h3>
+
+
+                        </div>
+
+                        <div class="row justify-content-center">
+
+                            <ul>
+                                <li>Welding and Grinding</li>
+                                <li>Machining</li>
+                                <li>Packaging</li>
+                                <li>QA / QC Inspection</li>
+                                <li>Complex prototype assemblies</li>
+                                <li>High Volume production</li>
+                                <li>Sheet Metal capabilities</li>
+                                <li>Engineering support for cost reduction</li>
+                            </ul> 
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 col-lg-6 col-sm">
+
+                    <div class="v3_services_title"  data-aos = "fade-right" data-aos-offset="200">
+
+                        <div class="row justify-content-center">
+
+                            <h3>Services</h3>
+
+                        </div>
+
+                        <div class="row justify-content-center">
+
+                            <ul>
+                                <li>Semiconductor & Wafer Fabrication</li>
+                                <li>Measurement & Control</li>
+                                <li>Chassis</li>
+                                <li>Network components</li>
+                                <li>Server devices and cabinets</li>
+                                <li>Testing & assemblies</li>
+                                <li>Sheet Metal capabilities</li>
+                                <li>Engineering support for cost reduction</li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+           
         </div>
 
     </section>
@@ -121,16 +190,7 @@
 
     <script>
         $(document).ready(function(){
-            $("#fusion").click(function(){
-                window.open(this.href);
-                return false;
-            });
-
-            $("#jobboss").click(function(){
-                window.open(this.href);
-                return false;
-            });
-
+           
             $(".navbar-toggler").click(function(){
 
                 $('#content').toggle();
