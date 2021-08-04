@@ -110,7 +110,7 @@
 }
 
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 974px){
 
     .v3_header h1{
 
@@ -133,7 +133,7 @@
 
         display:block;
 
-        width: 95%;
+        width: 90%;
 
         text-align: center;
 

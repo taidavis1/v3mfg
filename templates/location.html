@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel = "stylesheet" href="/static/css/location_layout.css">
+    <link rel = "stylesheet" href="/static/css/layout.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -51,24 +52,66 @@
         </div>
     </nav>
 
-    <div class = "v3_header">
-        <h1 data-aos = "fade-right">Locations</h1>
-        <p data-aos = "fade-up">Through years of success, South Bay Solutions has been able to grow to meet market pressures to improve product quality, reduce cost and manage issues that Automotive, Semiconductor, Medical, Aerospace, Petroleum and other industries constantly address to remain competitive and successful. SBS has been able to grow organically to meet the ever changing needs of our customers. Many of our current customers 
-            are today's market leaders in their fields..</p>
-    </div>
+    <section id="content">
 
-    <div class="v3_body_img">
-        <img data-aos = "fade-right" src="/static/img/IMG_0699.jpg">
-        <p data-aos ="fade-up" data-aos-offset="300">65,000 sq. ft. facility in Fremont is ready for you</p>
-    </div>
-    
-    <div class="row justify-content-center" data-aos="zoom-in">
-        <div class="col-sm">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3172.9881555735924!2d-121.87552014932413!3d37.31910824591851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e33314ad4674b%3A0x4d76cdbfd18ea56a!2sV3%20Manufacturing!5e0!3m2!1sen!2sus!4v1617865043818!5m2!1sen!2sus" width="100%" height="450" 
-                style="border:0 ; margin-top:20px;" allowfullscreen="" loading="lazy">
-            </iframe>
+        <div class="v3_header">
+
+            <div class="row justify-content-center">
+
+                <h1 data-aos = "fade-right">Locations</h1>
+
+            </div>
+
+            <div class="row justify-content-center">
+
+                <p data-aos = "fade-up">Through years of success, South Bay Solutions has been able to grow to meet market pressures to improve product quality, reduce cost and manage issues that Automotive, Semiconductor, Medical, Aerospace, Petroleum and other industries constantly address to remain competitive and successful. SBS has been able to grow organically to meet the ever changing needs of our customers. Many of our current customers 
+                    are today's market leaders in their fields..hrough years of success, South Bay Solutions has been able to grow to meet market pressures to improve product quality, reduce cost and manage issues that Automotive, Semiconductor, Medical, Aerospace, Petroleum and other industries constantly address to remain competitive and successful. SBS has been able to grow organically to meet the ever changing needs of our customers. Many of our current customers 
+                    are today's market leaders in their fields..hrough years of success, South Bay Solutions has been able to grow to meet market pressures to improve product quality, reduce cost and manage issues that Automotive, Semiconductor, Medical, Aerospace, Petroleum and other industries constantly address to remain competitive and successful. SBS has been able to grow organically to meet the ever changing needs of our customers. Many of our current customers 
+                    are today's market leaders in their fields..
+                </p>
+
+            </div>
+
         </div>
-    </div>
+
+        <div class="v3_location_img">
+            
+            <div class="row justify-content-center">
+
+               <div class="v3_img">
+
+                   <div class="row">
+                       
+                        <img class="img-fluid" data-aos = "fade-right" src="/static/img/IMG_0699.jpg">
+
+
+                        <div class="v3_img_text">
+
+                            <p data-aos ="fade-up" data-aos-offset="100">65,000 sq. ft. facility in Fremont is ready for you</p>
+
+
+                        </div>
+
+                    </div>
+
+               </div>
+
+            </div>
+
+        </div>
+
+       
+        <div class="row justify-content-center" data-aos="zoom-in">
+            <div class="col-sm">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3172.9881555735924!2d-121.87552014932413!3d37.31910824591851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e33314ad4674b%3A0x4d76cdbfd18ea56a!2sV3%20Manufacturing!5e0!3m2!1sen!2sus!4v1617865043818!5m2!1sen!2sus" width="100%" height="450" 
+                    style="border:0 ; margin-top:20px;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </div>
+
+
+    </section>
+
 
 
     
@@ -79,6 +122,18 @@
       AOS.init({
           offset:400,
           duration:1000,
+
+        });
+    </script>
+
+    <script>
+        $(document).ready(function(){
+           
+            $(".navbar-toggler").click(function(){
+
+                $('#content').toggle();
+
+            });
 
         });
     </script>
