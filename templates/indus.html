@@ -51,63 +51,102 @@
             </ul>
         </div>
     </nav>
-    <div class="v3_content">
-        <section id="header">
+
+    <section id="content">
+
+        <div class="v3_header">
+
             <div class="row justify-content-center">
-                <h1 class="col-sm-5 col-md col-lg" data-aos = "fade-left">Changing the Meaning of Precision Technology</h1>
+
+                <h1 data-aos = "fade-left">Changing the Meaning of Precision Technology</h1>
+
             </div>
-            <div class="col-md col-lg-12 row justify-content-center">
+
+            <div class="row justify-content-center">
+                
                 <p data-aos = "fade-up">
-                        South Bay Solutions provides complete and unfailing support to all our customers whether it's Automotive, Semiconductor, Medical, Aerospace or Petroleum industry as they face their most challenging operations 
-                        in any of these fields. When the stakes couldn't be higher, and when extraordinary reliability is 
-                        required, we will be a trusted partner who listens, performs and delivers.
+                    South Bay Solutions provides complete and unfailing support to all our customers whether it's Automotive, Semiconductor, Medical, Aerospace or Petroleum industry as they face their most challenging operations 
+                    in any of these fields. When the stakes couldn't be higher, and when extraordinary reliability is 
+                    required, we will be a trusted partner who listens, performs and delivers.
                 </p>
+
             </div>
-        </section>
+
+        </div>
+
+        <br><div class="v3-indus-body">
+
+            <div class="row justify-content-center">
+
+                <h1 data-aos = "fade-right">Automotive</h1>
 
 
-        <section class="sec_auto" id="1">
-            <div class="row justify-content-center">
-                <h2 data-aos = "fade-right">Automotive</h2>
             </div>
+
             <div class="row justify-content-center">
+
                 <p data-aos="fade-up">Driving America forward! A robust auto manufacturing sector is vital to a healthy U.S. economy. Manufacturing for Automotive Industry is vital to a strong economy, since prosperity is so linked to mobility. 
                     We are prone to offer the state of the art manufacturing of complex assemblies. Our automated materials management, planning and supply chain tools, which is a benchmark for the manufacturing industry.
                 </p>
+
             </div>
-            <div class="col-sm col-lg col-md">
-                <img data-aos="zoom-out" src="/static/img/IMG_0710.jpg">
+
+            <div class="row justify-content-center">
+
+                <img class="img-fluid" data-aos="zoom-in" src="http://www.discover-cee.com/wp-content/uploads/2019/04/shutterstock_732811756.jpg">
+
             </div>
-        </section>
 
 
-        <section class="sec_semi" id="2">
-            <div class="row justify-content-center">
-                <h2 data-aos="fade-left">Military Defense</h2>
+            <br><div class="row justify-content-center">
+
+                <h1 data-aos="fade-left">Military Defense</h1>
+
+
             </div>
+
             <div class="row justify-content-center">
+
                 <p data-aos="fade-right">High quality, reliable products, punctual deliveries and a competitive price made possible for our company to gain trust in Military Defense department 
+                    and now South Bay Solutions fulfilling this trust by delivering hight quality products.High quality, reliable products, punctual deliveries and a competitive price made possible for our company to gain trust in Military Defense department 
                     and now South Bay Solutions fulfilling this trust by delivering hight quality products.
                 </p>
+
             </div>
-            <div class="col-sm col-lg col-md">
-                <img data-aos="zoom-in" src="https://media.defense.gov/2020/May/05/2002294913/1280/1280/0/080122-O-ZZ999-001C.JPG">
+
+            <div class="row justify-content-center">
+
+                <img class="img-fluid" data-aos="zoom-in" src="https://media.defense.gov/2020/May/05/2002294913/1280/1280/0/080122-O-ZZ999-001C.JPG">
+
             </div>
-        </section>
 
-    </div>
+            <br><div class="row justify-content-center">
 
-
-
+                <h1 data-aos="fade-left">Medical</h1>
 
 
+            </div>
+
+            <div class="row justify-content-center">
+
+                <p data-aos="fade-right">High quality, reliable products, punctual deliveries and a competitive price made possible for our company to gain trust in Military Defense department 
+                    and now South Bay Solutions fulfilling this trust by delivering hight quality products.High quality, reliable products, punctual deliveries and a competitive price made possible for our company to gain trust in Military Defense department 
+                    and now South Bay Solutions fulfilling this trust by delivering hight quality products.
+                </p>
+
+            </div>
+
+            <div class="row justify-content-center">
+
+                <img class="img-fluid" data-aos="zoom-in" src="http://media.waspbarcode.com/media/buzz/2017/12/rsz_gettyimages-687714968.jpg">
+
+            </div>
+
+        </div>
 
 
-
-
-
-
-
+           
+    </section>
 
 
 
@@ -126,11 +165,27 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
     <script>
+
         $(document).on('click', '[data-toggle="lightbox"]', function(event) {
             event.preventDefault();
             $(this).ekkoLightbox();
         });
+
     </script>
+
+    <script>
+        $(document).ready(function(){
+           
+            $(".navbar-toggler").click(function(){
+
+                $('#content').toggle();
+
+            });
+
+        });
+    </script>
+
+
 </body>
 
 <footer>
