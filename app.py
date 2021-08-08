@@ -69,7 +69,7 @@ def company():
         messages_format['email'] = request.form['email']
         messages_format['messages'] = request.form['messages']
         
-        msg = Message("Sales Inquiry" , sender = "V3 Robot" , recipients=["Sales@v3mfg.com"])
+        msg = Message("Sales Inquiry" , sender = "V3 Robot" , recipients=["Sales@v3mfg.com"])        
         
         msg.body = """ Hello there , 
         Name : {}
@@ -77,14 +77,15 @@ def company():
         Messages:{}
         """.format(messages_format['name'] , messages_format['email'] , messages_format['messages'])
         
-        mail.send(msg)
+        if True:
         
-        return redirect(url_for('company'))
-
-    if request.method == 'GET':
-        return render_template('company.html')
+            mail.send(msg)
+            
+            return jsonify({'success':'True'})
+    
+    return render_template('company.html')
 
 
 #####################################
 if __name__ ==  '__main__':
-    app.run()
+    app.run(debug=True, host='127.0.0.1' , port=5000)
