@@ -35,7 +35,6 @@
     }
     
     .navbar ul a{
-        cursor: pointer;
         text-transform: uppercase;
         display: block;
         font-size:large;
@@ -61,7 +60,6 @@
     }
     
     .navbar ul a{
-        cursor: pointer;
         text-transform: uppercase;
         display: block;
         font-size: x-large;
@@ -92,7 +90,6 @@
     }
     
     .navbar ul a{
-        cursor: pointer;
         text-transform: uppercase;
         display: block;
         font-size: x-large;
@@ -126,7 +123,6 @@
     }
     
     .navbar ul a{
-        cursor: pointer;
         text-transform: uppercase;
         display: block;
         font-size: x-large;
@@ -206,7 +202,7 @@ body {
 
 .navbar .nav-link:hover{
     border-bottom: 2px solid #3f87a6;
-    /* transition: 0.3s; */
+    transition: 0.3s;
 }
 
 
@@ -215,8 +211,6 @@ body {
   }
 
 .nav-item{
-
-    cursor: pointer;
 
     font-size: large;
 
@@ -228,8 +222,13 @@ body {
 
 }
 
+
+
   
 @media only screen and (max-width: 909px) {
+
+
+
     .navbar .navbar-collapse {
       background: linear-gradient(#0093E9, #80D0C7);
       opacity: 0;
@@ -238,12 +237,11 @@ body {
       left: 0;
       right: 0;
       bottom: 0;
-      /* transition: opacity 0.35s ease; */
       display: flex;
       flex-direction: column;
       align-content: center;
       text-align: center !important;
-      
+
 
     }
 
@@ -253,24 +251,25 @@ body {
 
     }
 
+   
     .navbar-collapse{
 
-        color: none;
         text-decoration: none;
         font-size: 30px;
         font-weight: 500;
         padding: 5px 30px;
-        color: #fff;
         position: relative;
         line-height: 50px;
         width: 100%;
+        pointer-events: none;
+
 
     }
 
     .navbar .navbar-collapse .collapse {
         display: flex;
         opacity: 0;
-        pointer-events: none;
+        
 
     }
     .navbar .navbar-collapse.collapsing[style*="height"] {
@@ -282,8 +281,9 @@ body {
       height: 100vh;
     }
     .navbar .navbar-collapse.collapse.show {
-      opacity: 1;
-      pointer-events: auto;
+        opacity: 1; 
+        pointer-events: auto;
+   
     }
     .navbar .navbar-collapse .navbar-nav {
       margin-right: initial !important;
@@ -293,6 +293,7 @@ body {
 
     .navbar-nav{
         margin-left: initial !important;
+        
     }
 
 }
